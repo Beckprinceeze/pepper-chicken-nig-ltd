@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Pepper Chicken - Nigerian Restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="theme.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <img src="assets/CRIY8616.PNG" alt="Pepper Chicken Logo">
+                <div class="logo-text">
+                    <h1>Pepper <span class="chi">Chicken</span></h1>
+                    <span>Nig Ltd</span>
+                </div>
+            </a>
+            
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link active">Menu</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item admin-nav-item"><a href="admin/login.html" class="nav-link"><i class="fas fa-user-shield"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="py-5 overflow-hidden bg-primary-gradient" id="home">
+        <div class="container">
+          <div class="row flex-center">
+            <div class="col-md-5 col-lg-6 order-0 order-md-1 mt-8 mt-md-0"><a class="img-landing-banner" href="#!"><img class="img-fluid" src="assets/GRCX7003.PNG" alt="hero-header" /></a></div>
+            <div class="col-md-7 col-lg-6 py-8 text-md-start text-center">
+              <h1 class="display-1 fs-md-5 fs-lg-6 fs-xl-8 text-light">Are you starving?</h1>
+              <h1 class="text-800 mb-5 fs-4">Just a click, order meals that <br class="d-none d-xxl-block" />Satisfy your appetite</h1>
+             
+          </div>
+        </div>
+      </section>
+    <!-- Menu Full Section -->
+    <section class="menu section">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="animate-on-scroll" data-animation="fadeInUp">Explore Our Delicious Options</h2>
+                <p class="animate-on-scroll" data-animation="fadeInUp" data-delay="0.2">A selection of authentic Nigerian dishes prepared with traditional recipes</p>
+            </div>
+            
+            <div class="menu-nav animate-on-scroll" data-animation="fadeInUp" data-delay="0.3">
+                <div class="menu-nav-item active" data-category="all">All</div>
+                <div class="menu-nav-item" data-category="main">Main Dishes</div>
+                <div class="menu-nav-item" data-category="soup">Soups</div>
+                <div class="menu-nav-item" data-category="side">Side Dishes</div>
+                <div class="menu-nav-item" data-category="appetizer">Appetizers</div>
+                <div class="menu-nav-item" data-category="breakfast">Breakfast</div>
+                <div class="menu-nav-item" data-category="dessert">Desserts</div>
+                <div class="menu-nav-item" data-category="drink">Drinks</div>
+            </div>
+            
+            <div class="menu-search animate-on-scroll" data-animation="fadeInUp" data-delay="0.4">
+                <form id="searchForm" class="search-container">
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search our menu by name, ingredient, or category...">
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be loaded from JavaScript -->
+            </div>
+            
+            <div id="noResults" style="display: none; text-align: center; padding: 2rem; color: white;">
+                <i class="fas fa-search" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                <h3>No Results Found</h3>
+                <p>We couldn't find any menu items matching your search. Please try different keywords.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section" style="background-image: url(assets/AVBJ9196.PNG); padding: var(--spacing-lg) 0;">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="mb-3 animate-on-scroll" data-animation="fadeInUp">Ready to Experience Nigerian Delicacies</h2>
+                <p class="mb-4 animate-on-scroll" data-animation="fadeInUp" data-delay="0.2">Visit us at Pepper Chicken for an unforgettable cultural experience</p>
+                <a href="contact.html" class="btn" data-animation="fadeInUp" data-delay="0.4">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="assets/logo.svg" alt="Pepper Chicken Logo">
+                        <h3>Pepper Chicken</h3>
+                    </div>
+                    <p>Experience the authentic taste of Nigerian cuisine, prepared with traditional methods and the finest ingredients.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/menu">Menu</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/admin/login">Admin</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Opening Hours</h3>
+                    <div class="footer-hours">
+                        <span>Monday - Friday</span>
+                        <span>10AM - 10PM</span>
+                    </div>
+                    <div class="footer-hours">
+                        <span>Saturday - Sunday</span>
+                        <span>12PM - 12AM</span>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-menu">
+                        <li><i class="fas fa-map-marker-alt"></i> <span class="footer-contact-address">123 Spice Road, Lagos, Nigeria</span></li>
+                        <li><i class="fas fa-phone-alt"></i> <span class="footer-contact-phone">+234 123 456 7890</span></li>
+                        <li><i class="fas fa-envelope"></i> <span class="footer-contact-email">info@pepperchicken.com</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2023</span> Pepper Chicken. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

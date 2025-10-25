@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#E63946" />
+  
+  <!-- Pepper silhouette -->
+  <path d="M100,30 C110,30 120,35 125,45 C130,55 130,65 128,75 C126,85 130,95 135,105 C140,115 145,125 140,135 C135,145 125,155 115,158 C105,161 95,158 90,150 C85,142 85,132 88,122 C91,112 90,102 85,92 C80,82 75,72 80,62 C85,52 90,42 100,30 Z" fill="#FFFFFF" />
+  
+  <!-- Pepper stem -->
+  <path d="M100,30 C105,25 110,20 115,25 C120,30 118,40 115,45 C112,50 105,50 100,45 C95,40 95,35 100,30 Z" fill="#87CEEB" />
+  
+  <!-- Pepper highlights -->
+  <path d="M95,45 C100,50 105,55 110,50 C115,45 115,40 110,35 C105,30 100,30 95,35 C90,40 90,40 95,45 Z" fill="#FFD700" opacity="0.6" />
+  
+  <!-- Chicken silhouette -->
+  <path d="M135,120 C145,115 155,110 160,120 C165,130 160,140 150,145 C140,150 130,145 130,135 C130,125 135,120 135,120 Z" fill="#FFD700" />
+  
+  <!-- Chicken eye -->
+  <circle cx="155" cy="130" r="3" fill="#222222" />
+  
+  <!-- Chicken beak -->
+  <path d="M165,125 C170,123 175,125 170,130 C165,135 160,130 165,125 Z" fill="#FF7F00" />
+  
+  <!-- Text "PEPPER" -->
+  <text x="70" y="190" font-family="'Playfair Display', serif" font-size="20" font-weight="bold" fill="#FFFFFF">PEPPER</text>
+  
+  <!-- Text "CHICKEN" -->
+  <text x="70" y="210" font-family="'Playfair Display', serif" font-size="20" font-weight="bold" fill="#87CEEB">CHICKEN</text>
+</svg>
